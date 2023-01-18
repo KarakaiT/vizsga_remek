@@ -1,0 +1,533 @@
+body{
+
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url('img/3dgardenkezdo.jpg');
+}
+
+
+.navbar{
+
+    box-sizing: border-box;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(65, 65, 65, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.navbar-left{
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.navbar-right{
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-left img{
+
+    height: 70%;
+    background: transparent;
+}
+
+.navbar-right a{
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.about{
+
+    height: auto;
+    width: 100%;
+    background-color: #ccc;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom:20px ;
+}
+
+.about h2{
+
+    font-size: 50px;
+    border-bottom: black;
+    margin-bottom: 50px;
+    border-bottom: 3px solid black;
+}
+
+.provision{
+
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.provision h2{
+
+    margin-bottom: 60px;
+    font-size: 50px;
+    border-bottom: 3px solid black;
+
+}
+
+.provicards{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    height: auto;
+    padding-bottom: 20px;
+    
+}
+
+.card{
+
+    height: 275px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.7);
+
+}
+
+.card p{
+
+    padding: 15px;
+}
+
+.card a{
+
+    
+    text-decoration: none;
+    padding: 12px 35px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    background: transparent;
+    cursor: pointer;
+    margin: 35px 0  !important;
+    border-radius: 15px;
+}
+
+.card h3{
+
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.all_contact{
+
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ccc;
+
+}
+
+.contact{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+
+.contact h2{
+
+    margin: 30px 0;
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+
+.message{
+
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.message h2{
+
+    font-size: 35px;
+    font-weight: bolder;
+
+}
+
+.mapp{
+
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.mapmes{
+
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+
+.message form{
+
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+}
+
+.message form input{
+
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: #121619;
+}
+
+.message form textarea{
+
+    margin-top: 15px;
+    height: 150px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: #121619;
+    resize: none;
+}
+
+.message form input::placeholder,
+.message form textarea::placeholder{
+
+    font-weight: bold;
+    color: #121619;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.message form input:focus,
+.message form textarea:focus{
+
+    outline: none;
+}
+
+.message form label{
+
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.message form button{
+
+    margin-top: 20px;
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #121619;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media  screen and (max-width: 1800px) {
+    
+    .provicards{
+        
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .provision{
+
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media  screen and (max-width: 1300px) {
+    
+    .provicards{
+        
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}
+
+@media  screen and (max-width: 1800px) {
+    
+    .message h2{
+
+        font-size: 25px;
+        font-weight: bolder;
+    
+    }
+}
+
+@media  screen and (max-width: 1300px) {
+    
+    .mapmes{
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .all_contact{
+
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #ccc;
+    
+    }
+
+}
+
+@media  screen and (max-width: 890px) {
+    
+    .provicards{
+        
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card{
+
+        height: 275px;
+        width: 200px;
+
+    }
+    .card h3{
+
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .card p{
+
+        box-sizing: border-box;
+        padding: 0;
+        clear: both;
+    }
+
+    
+
+    .card a{
+
+    
+        text-decoration: none;
+        padding: 5px 10px;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: rgb(0, 0, 0);
+        border: 1px solid rgb(0, 0, 0);
+        background: transparent;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .provision{
+
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 510px)
+{
+    .provicards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .provision h2{
+
+        font-size: 35px;
+    }
+}
+
+
+
+@media  screen and (max-width: 850px) {
+    
+    .mapp{
+        
+        width: 300px;
+        height: 300px;
+    }
+
+    .message{
+
+        width: 300px;
+        height: 500px;
+
+    }
+    .all_contact{
+
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #ccc;
+    
+    }
+
+    .message form input{
+
+        width: 200px;
+        height: 30px;
+        border: none;
+        border-bottom: 1px solid #121619;
+        color: #121619;
+    }
+    .message form button{
+
+        margin-top: 10px;
+        width: 150px;
+        height: 25px;
+        border: none;
+        background-color: #121619;
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .message form textarea{
+
+        margin-top: 5px;
+        height: 150px;
+        width: 200px;
+        border: none;
+        border-bottom: 1px solid #121619;
+        color: #121619;
+        resize: none;
+    }
+
+    .message form label{
+
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 5px;
+        color: rgb(0, 0, 0);
+    }
+
+    .message h2{
+
+        font-size: 18px;
+        font-weight: bolder;
+    
+    }
+
+
+}
+
+@media screen and (max-width: 770px) {
+    .navbar-right {
+        flex-direction: column;
+    }
+    .navbar{
+        height: auto;
+    }
+}
+@media screen and (max-width: 560px) {
+    .navbar{
+        padding: 0 80px;
+    }
+}
+@media screen and (max-width: 415px) {
+    .navbar{
+        padding: 0 32px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .navbar{
+        padding: 0;
+    }
+}
+@media  screen and (max-width: 250px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+}
+

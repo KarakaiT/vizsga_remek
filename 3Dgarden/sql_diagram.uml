@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>5ad5fd3c-ae12-4b5b-b172-a574dc9cb30e</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">5ad5fd3c-ae12-4b5b-b172-a574dc9cb30e.TABLE:3dgarden.arak</node>
+    <node x="188.0" y="0.0">5ad5fd3c-ae12-4b5b-b172-a574dc9cb30e.TABLE:3dgarden.ajanlat</node>
+    <node x="0.0" y="540.0">5ad5fd3c-ae12-4b5b-b172-a574dc9cb30e.TABLE:3dgarden.uzenet</node>
+    <node x="395.0" y="0.0">5ad5fd3c-ae12-4b5b-b172-a574dc9cb30e.TABLE:3dgarden.jobs</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="0.908957415565345" showDependencies="false" x="272.0" y="451.5177705977383" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
